@@ -12,16 +12,16 @@
 
 const content = {
   // ---------- About you ----------
-  name: "Percy Portfolio",
-  tagline: "Aspiring software developer & professional thumbs-up giver 👍", // one line under your name
+  name: "Henry Stobbe",
+  tagline: "Computer Science student seeking a software development co-op for May–August 2027", // one line under your name
 
   // Put your photo in the assets/ folder and put its file name here.
   // Square-ish, about 600px wide, under 1 MB works best.
-  photo: "assets/photo.jpg",
+  photo: "",
 
   // 1–3 sentences: what you care about and what you're looking for.
   mission:
-    "I build friendly, useful software and I'm looking for a co-op where I can learn fast, ship real features, and work with people who love teaching.",
+    "I'm studying Computer Science at Conestoga College and enjoy building reliable, useful software. I'm looking for a May–August 2027 co-op where I can contribute to a team and keep growing as a developer.",
 
   // ---------- Make it yours ----------
   theme: {
@@ -46,65 +46,74 @@ const content = {
   // ---------- Links (shown as buttons at the top) ----------
   // For email just write the address, e.g. "you@example.com".
   links: [
-    { label: "GitHub", url: "https://github.com/your-username" },
-    { label: "LinkedIn", url: "https://www.linkedin.com/in/your-name" },
-    { label: "Email", url: "percy@example.com" },
+    { label: "LinkedIn", url: "https://www.linkedin.com/in/hstobbe/" },
   ],
 
   // ---------- Skills (optional — set to [] to hide) ----------
-  skills: ["JavaScript", "Python", "HTML & CSS", "Git", "Java", "SQL"],
+  skills: ["C", "C++", "C#", "Java", "Python", "SQL", ".NET", "Blazor", "HTML & CSS", "Microsoft SharePoint", "Git & GitHub", "Visual Studio", "VS Code", "Linux & WSL", "Doxygen", "Object-Oriented Programming", "Data Structures & Algorithms", "Software Testing", "Database Management", "Agile Development"],
 
   // ---------- Projects ----------
   // Link to the GitHub repo (a live demo is optional — a repo is enough!).
   // tags are optional.
   projects: [
     {
-      title: "Study Buddy",
-      description: "A web app that matches classmates into study groups based on courses and schedules.",
-      url: "https://github.com/your-username/study-buddy",
-      tags: ["JavaScript", "Node.js"],
+      title: "LTC SCADA/HMI Monitoring System",
+      description: "Developing a web-based monitoring and control system for long-term care homes using C#, .NET, and Blazor. Designing role-based access control and support for various devices while applying Agile practices, sprint planning, and software testing. September 2026–present.",
+      url: "",
+      tags: ["C#", ".NET", "Blazor", "Agile"],
     },
     {
-      title: "Campus Eats",
-      description: "A command-line tool that picks where to eat on campus using a very scientific coin flip.",
-      url: "https://github.com/your-username/campus-eats",
-      tags: ["Python"],
+      title: "CineVault",
+      description: "Collaborated on an all-in-one media catalogue combining media information, physical releases, price tracking, and streaming availability. Integrated multiple APIs and Gemini AI for media information and a chatbot, delivering a mostly functional MVP for discovering media and viewing streaming availability and physical releases. April 2026.",
+      url: "",
+      tags: ["API Integration", "Gemini AI", "Git", "Team Project"],
     },
     {
-      title: "Habit Tracker",
-      description: "A tiny mobile-friendly habit tracker that works offline.",
-      url: "https://github.com/your-username/habit-tracker",
-      tags: ["HTML", "CSS", "JavaScript"],
+      title: "DNDManager",
+      description: "Built a command-line application with a team to track spell slots, spells, and spell information for Dungeons & Dragons. Developed features in C and C++, contributed to planning, interface design, and testing, and wrote technical documentation with Doxygen. February–April 2026.",
+      url: "",
+      tags: ["C", "C++", "Doxygen", "Object-Oriented Programming"],
     },
   ],
 
   // ---------- Education ----------
   education: [
     {
-      school: "Example College",
-      degree: "Diploma, Computer Programming",
-      years: "2024 – 2027",
-      details: "Relevant courses: Data Structures, Databases, Web Development.", // optional
+      school: "Conestoga College, Waterloo, ON",
+      degree: "Bachelor of Computer Science (Honours)",
+      years: "September 2025 – present",
+      details: "Relevant coursework: Object-Oriented Programming, Data Structures and Algorithms, Software Engineering Fundamentals, Database Systems, Computer Networks, Software Quality I, and Systems Analysis & Design.", // optional
+    },
+    {
+      school: "Waterloo-Oxford District Secondary School, Baden, ON",
+      degree: "Ontario Secondary School Diploma",
+      years: "September 2021 – June 2025",
+      details: "Honours Roll.",
     },
   ],
 
   // ---------- Work experience (optional — set to [] to hide) ----------
   experience: [
     {
-      role: "Peer Tutor",
-      org: "Example College Learning Centre",
-      years: "2025 – present",
-      description: "Help first-year students debug their programming assignments.",
+      role: "Maintenance Aide",
+      org: "Tri-County Mennonite Homes, New Hamburg, ON",
+      years: "May 2026 – present",
+      description: "Digitized maintenance auditing forms for mobile and computer access and redesigned parts of the department's SharePoint webpage to improve usability. Track facility assets, perform maintenance and repairs, and collaborate with staff to prioritize and complete requests.",
+    },
+    {
+      role: "Dietary Aide",
+      org: "Tri-County Mennonite Homes, New Hamburg, ON",
+      years: "July 2023 – May 2026",
+      description: "Prepared, plated, and served meals to residents while accommodating individual dietary requirements. Maintained a clean dining environment and coordinated with dietary and personal support worker staff to deliver the correct meals.",
+    },
+    {
+      role: "Information Technology Assistant (Co-op)",
+      org: "Focus Computers, New Hamburg, ON",
+      years: "October 2024 – January 2025",
+      description: "Diagnosed hardware and software issues, assisted with repairs, replaced components including HDDs and SSDs, and removed malware. Thoroughly tested repaired computers before returning them to customers.",
     },
   ],
 
   // ---------- Extracurriculars (optional — set to [] to hide) ----------
-  extracurriculars: [
-    {
-      role: "Executive Lead",
-      org: "Google Developer Group on Campus",
-      years: "2025 – present",
-      description: "Run workshops and events for student developers.",
-    },
-  ],
+  extracurriculars: [],
 };
